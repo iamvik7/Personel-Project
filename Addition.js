@@ -1,8 +1,11 @@
 function add(a , b) {
-  return a + b;
+  let addRes = a + b;
+  return addRes;
 }
 
 let a = 501;
 let b = 120;
 
-console.log(add(a, b));
+let ans = add(a, b);
+
+console.log(ans);
